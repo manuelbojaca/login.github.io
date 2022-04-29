@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mision Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Hola Pedro!</h2>
+            <p>Bienvedid@ nuevamente</p>
+        </div>
+        <form>
+            <div class="input-icono arroba">
+                <input class="input" type="text" placeholder="Email">
+            </div>
+            <div class="input-icono candado">
+                <input class="input" type="password" placeholder="Password">
+            </div>
+            <div class="btn">
+                <button>Enviar</button>
+            </div>
+        </form>
+        <div class="box">
+            <p>Olvidaste la contraseña?</p>
+            
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e0ea792a46.js" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.input-icono').addEventListener('click', function() {
+            this.querySelector('input').focus();
+        });
+    </script>
+</body>
+</html>
